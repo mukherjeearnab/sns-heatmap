@@ -3,6 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 sns.set()
+plt.rcParams["font.family"] = "Times New Roman"
 
 df = pd.DataFrame({'Anomalies': ['Redundancy', 'Conflict', 'Incomplete', 'Cyclic Rule Redundancy'],
                    'University': [15, 15, 13, 1],
