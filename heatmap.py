@@ -19,7 +19,7 @@ df = df.set_index(['Anomalies'])
 print(df)
 
 
-plt.figure(figsize=(12, 2.1))
+plt.figure(figsize=(12, 1.7))
 # fig = plt.figure()
 # fig.tight_layout()
 
@@ -43,7 +43,7 @@ plt.tight_layout(pad=0)
 #                     hspace=0,
 #                     wspace=0)
 
-plt.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=0, hspace=0)
+# plt.subplots_adjust(left=0, bottom=0, right=1, top=1, wspace=0, hspace=0)
 
 
 plt.savefig('test.pdf', bbox_inches='tight')
